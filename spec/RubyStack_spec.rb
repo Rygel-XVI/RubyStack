@@ -4,6 +4,6 @@ RSpec.describe RubyStack do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    @s1 = RubyStack::Stack.new
   end
 end

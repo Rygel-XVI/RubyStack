@@ -1,5 +1,8 @@
 require "RubyStack/version"
 
-module RubyStack
-  # Your code goes here...
+class RubyStack::Stack
+  # Your code goes here..
+  def initialize
+    binding.pry
+  end
 end
